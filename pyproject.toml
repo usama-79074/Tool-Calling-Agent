@@ -1,0 +1,22 @@
+[project]
+name = "tool-calling-agent"
+version = "0.1.0"
+description = "Tool Calling Agent using Google Gemini 2.5 Flash"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+requires-python = "^3.10"
+dependencies = [
+    "google-genai (>=2.12.0,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "rich (>=15.0.0,<16.0.0)",
+    "requests (>=2.34.2,<3.0.0)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
